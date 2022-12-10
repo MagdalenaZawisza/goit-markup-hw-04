@@ -123,7 +123,7 @@ header {
   padding-bottom: 280px;
   border: 1px solid transparent;
   background-image: url(../images/header-img.jpg),
-    linear-gradient(90deg, rgba(47, 48, 58, 0.4) 0%, rgba(47, 48, 58, 0.4) 0%);
+    linear-gradient (90deg, rgba(47, 48, 58, 0.4) 0%, rgba(47, 48, 58, 0.4) 0%);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -269,7 +269,8 @@ header {
   fill: var(--white-color);
 }
 .social-icon-box:hover,
-.social-icon-box:focus .social-icon-box:active {
+.social-icon-box:focus,
+.social-icon-box:active {
   cursor: pointer;
   background-color: var(--brand-color);
 }
