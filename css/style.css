@@ -296,16 +296,13 @@ header {
 }
 
 /*stopka*/
-
 .contact {
   background-color: var(--bg-color);
   height: 252px;
 }
-
 .contact-box {
   padding-top: 15%;
 }
-
 .contact-list {
   list-style-type: none;
   padding-left: 0;
@@ -328,7 +325,6 @@ header {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
-
 .social-text {
   font-family: "Roboto";
   font-style: normal;
@@ -349,11 +345,9 @@ header {
   width: 206px;
   margin-top: 72px;
 }
-
 .icon-box {
   display: flex;
 }
-
 .icon-social-box {
   margin-right: 10px;
   border-radius: 50%;
@@ -362,7 +356,6 @@ header {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   background-position: absolute;
 }
-
 .icon-social {
   fill: #afb1b8;
 }
