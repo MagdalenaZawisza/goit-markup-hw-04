@@ -161,12 +161,13 @@ header {
     0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-/*tekst*/
+/*atuty*/
 .feature-box {
   display: flex;
   gap: 30px;
   padding-top: 94px;
   padding-bottom: 94px;
+  max-width: 1170px;
 }
 
 .feature-title {
@@ -256,7 +257,6 @@ header {
 .social-icon-box {
   width: 44px;
   height: 44px;
-  padding: 12px;
   margin-right: 10px;
   border-radius: 50%;
 }
@@ -353,13 +353,11 @@ header {
 
 .icon-box {
   display: flex;
-  justify-content: space-around;
 }
 
 .icon-social-box {
   width: 44px;
   height: 44px;
-  padding: 12px;
   margin-right: 10px;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
