@@ -123,8 +123,8 @@ header {
   padding-top: 200px;
   padding-bottom: 280px;
   border: 1px solid transparent;
-  background-image: url(../images/header-img.jpg), linear-gradient
-    (90deg, rgba(47, 48, 58, 0.4) 0%, rgba(47, 48, 58, 0.4) 0%);
+  background-image: url(../images/header-img.jpg),
+    linear-gradient(90deg, rgba(47, 48, 58, 0.4) 0%, rgba(47, 48, 58, 0.4) 0%);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
