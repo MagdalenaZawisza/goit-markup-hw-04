@@ -16,8 +16,8 @@ body {
 
 .menu-logo {
   border: 1px solid #ececec;
- padding-top: 24px;
- padding-bottom: 25px ;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .list {
@@ -129,6 +129,7 @@ body {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   text-align: center;
   border: 1px solid transparent;
+  padding: 94px 0;
 }
 
 .primary-title {
@@ -138,7 +139,7 @@ body {
   line-height: 1.36;
   text-transform: uppercase;
   color: var(--white-color);
-  margin: 200px 252px 0;
+  margin: 106px 252px 0;
   letter-spacing: 0.06em;
   text-align: center;
 }
@@ -154,7 +155,7 @@ body {
   background-color: #f5f4fa;
   padding: 10px 41px;
   margin-top: 30px;
-  margin-bottom: 200px;
+  margin-bottom: 106px;
 }
 .primary-bg:hover {
   background-color: var(--brand-color);
