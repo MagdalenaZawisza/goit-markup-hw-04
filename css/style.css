@@ -11,6 +11,7 @@ body {
   color: var(--text-color);
   background-color: var(--white-color);
   margin: 0;
+  padding: 0;
 }
 
 header {
@@ -117,7 +118,9 @@ header {
 .menu-phone:hover {
   color: var(--brand-color);
 }
+
 .primary {
+  height: 600px;
   background-color: var(--bg-color);
   text-align: center;
   padding-top: 200px;
@@ -125,9 +128,8 @@ header {
   border: 1px solid transparent;
   background-image: url(../images/header-img.jpg),
     linear-gradient(90deg, rgba(47, 48, 58, 0.4) 0%, rgba(47, 48, 58, 0.4) 0%);
-  background-size: cover;
   background-repeat: no-repeat;
-  background-position: 50% 50%;
+  background-position: center;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 .primary-title {
@@ -186,8 +188,12 @@ header {
 }
 .icon-advantages {
   background: #f5f4fa;
-  padding: 25px 100px;
   border-radius: 4px;
+  padding: 25px 100px;
+}
+.icon-advantages-box {
+  max-width: 1170px;
+  gap: 30px;
 }
 
 /* oferta */
@@ -253,25 +259,21 @@ header {
 }
 
 .social-icon-box {
-  margin-right: 10px;
-  border-radius: 50%;
   padding: 12px;
+  width: 44px;
+  height: 44px;
 }
 
 .icon-social {
   fill: #afb1b8;
 }
 
-.icon-social:hover,
-.icon-social:focus,
-.icon-social:active {
-  cursor: pointer;
-  fill: var(--white-color);
-}
 .social-icon-box:hover,
 .social-icon-box:focus,
 .social-icon-box:active {
   cursor: pointer;
+  fill: var(--white-color);
+  border-radius: 50%;
   background-color: var(--brand-color);
 }
 
@@ -283,15 +285,18 @@ header {
 }
 .icon-client {
   fill: #afb1b8;
-  outline: 2px solid #afb1b8;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
   width: 170px;
   height: 92px;
+}
+.icon-client:hover,
+.icon-client:focus,
+.icon-client:active {
+  fill: var(--brand-color);
+  border: 1px solid #2196f3;
   border-radius: 4px;
   cursor: pointer;
-}
-.icon-client:hover {
-  fill: var(--brand-color);
-  outline: 2px solid var(--brand-color);
 }
 
 /*stopka*/
@@ -348,6 +353,8 @@ header {
   display: flex;
 }
 .icon-social-box {
+  width: 44px;
+  height: 44px;
   margin-right: 10px;
   border-radius: 50%;
   padding: 12px;
