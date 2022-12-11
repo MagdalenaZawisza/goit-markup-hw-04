@@ -120,7 +120,7 @@ header {
 }
 
 .primary {
-  height: 600px;
+  max-height: 600px;
   background-color: var(--bg-color);
   text-align: center;
   padding-top: 200px;
@@ -168,8 +168,8 @@ header {
 .feature-box {
   display: flex;
   gap: 30px;
-  padding-top: 94px;
-  padding-bottom: 94px;
+  margin-top: 94px;
+  margin-bottom: 94px;
   max-width: 1170px;
 }
 
@@ -259,9 +259,9 @@ header {
 }
 
 .social-icon-box {
-  padding: 12px;
   width: 44px;
   height: 44px;
+  padding: 12px;
 }
 
 .icon-social {
