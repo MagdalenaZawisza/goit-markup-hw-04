@@ -189,7 +189,6 @@ header {
 .icon-advantages {
   background: #f5f4fa;
   border-radius: 4px;
-  padding: 25px 100px;
 }
 .icon-advantages-box {
   max-width: 1170px;
@@ -261,7 +260,6 @@ header {
 .social-icon-box {
   width: 44px;
   height: 44px;
-  padding: 12px;
 }
 
 .icon-social {
@@ -351,17 +349,18 @@ header {
 }
 .icon-box {
   display: flex;
+  justify-content: center;
 }
 .icon-social-box {
   width: 44px;
   height: 44px;
   margin-right: 10px;
   border-radius: 50%;
-  padding: 12px;
   background-color: rgba(255, 255, 255, 0.1);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   background-position: absolute;
 }
+
 .icon-social {
   fill: #afb1b8;
 }
