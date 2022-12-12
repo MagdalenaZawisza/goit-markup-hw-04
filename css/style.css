@@ -20,18 +20,25 @@ body {
   padding-bottom: 25px;
 }
 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  outline: 1px dotted var(--p-color);
+}
 .list {
   list-style-type: none;
   display: flex;
   margin: 0;
   padding: 0;
-  gap: 30px;
+  gap:30px;
 }
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 15px;
+
+.section {
+  margin-top: 94px;
+  margin-bottom: 94px;
 }
+
 
 /* menu */
 .icon {
@@ -166,20 +173,11 @@ body {
 }
 
 /*atuty*/
-.feature-box {
-  display: flex;
-  gap: 30px;
-  margin-top: 94px;
-  margin-bottom: 94px;
-  max-width: 1170px;
-}
-
 .feature-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
 }
 .feature-section {
   color: (--p-color);
@@ -187,20 +185,10 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-.icon-advantages {
-  background: #f5f4fa;
-  border-radius: 4px;
-}
-.icon-advantages-box {
-  max-width: 1170px;
-  gap: 30px;
-}
+
 
 /* oferta */
-.tender {
-  margin-top: 94px;
-  margin-bottom: 94px;
-}
+
 .tender-title {
   font-weight: 700;
   font-size: 36px;
@@ -213,7 +201,6 @@ body {
 .team {
   background-color: #f5f4fa;
   text-align: center;
-  padding-bottom: 94px;
 }
 .team-card {
   width: 270px;
