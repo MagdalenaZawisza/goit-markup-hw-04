@@ -24,21 +24,20 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
-  outline: 1px dotted var(--p-color);
+  /* outline: 1px dotted var(--p-color); */
 }
 .list {
   list-style-type: none;
   display: flex;
   margin: 0;
   padding: 0;
-  gap:30px;
+  gap: 30px;
 }
 
 .section {
   margin-top: 94px;
   margin-bottom: 94px;
 }
-
 
 /* menu */
 .icon {
@@ -185,7 +184,6 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-
 
 /* oferta */
 
