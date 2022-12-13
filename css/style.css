@@ -194,9 +194,11 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-.icon-advantages {
+.icon-advantages-box {
+  padding: 25px 100px;
   margin-bottom: 30px;
-  padding: 0;
+  background-color: #f5f4fa;
+  border-radius: 4px;
 }
 
 /* oferta */
@@ -240,6 +242,8 @@ body {
   letter-spacing: 0.03em;
   color: var(--text-color);
   padding-left: 24px;
+  padding-top:30px;
+  padding-bottom: 10px;
 }
 .team-job {
   font-size: 16px;
@@ -247,6 +251,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--p-color);
   padding-left: 24px;
+
 }
 .social-box {
   display: flex;
