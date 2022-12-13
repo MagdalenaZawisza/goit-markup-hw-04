@@ -11,6 +11,7 @@
   --white-color: #ffffff;
   --icon-color: #afb1b8;
   --backgrand-color: #f5f4fa;
+  --backgrand-icon: rgba(255, 255, 255, 0.1);
 }
 
 body {
@@ -219,7 +220,6 @@ body {
   padding-bottom: 94px;
 }
 .team-card {
-  width: 270px;
   background-color: var(--white-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -241,39 +241,32 @@ body {
   line-height: 1.18;
   letter-spacing: 0.03em;
   color: var(--text-color);
-  padding-left: 24px;
-  padding-top:30px;
-  padding-bottom: 10px;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 .team-job {
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
   color: var(--p-color);
-  padding-left: 24px;
-
+  justify-content: center;
+  margin-bottom: 16px;
 }
 .social-box {
   display: flex;
-  justify-content: space-around;
-  margin-top: 16px;
-  margin-bottom: 18px;
-  margin-right: 32px;
-  margin-left: 32px;
-}
-
-.social-icon-box {
-  width: 44px;
-  height: 44px;
+  margin: 16px 32px 18px 32px;
+  gap:10px;
 }
 
 .icon-social {
   fill: var(--icon-color);
 }
 
-.social-icon-box:hover,
-.social-icon-box:focus,
-.social-icon-box:active {
+.icon-social:hover,
+.icon-social:focus,
+.icon-social:active {
   cursor: pointer;
   fill: var(--white-color);
   border-radius: 50%;
@@ -352,34 +345,29 @@ body {
 }
 .column2of2 {
   float: left;
-  width: 206px;
   margin-top: 72px;
+  margin-left: 70px;
 }
+
 .icon-box {
   display: flex;
-  justify-content: center;
-}
-.icon-social-box {
-  width: 44px;
-  height: 44px;
-  margin-right: 10px;
-  border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.1);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  background-position: absolute;
+  gap:10px;
 }
 
 .icon-social-footer {
   fill: var(--white-color);
+  border-radius: 50%;
+  background-color: var(--backgrand-icon);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.icon-social:hover,
-.icon-social:focus,
-.icon-social:active {
+.icon-box:hover,
+.icon-box:focus,
+.icon-box:active {
   cursor: pointer;
   fill: var(--white-color);
 }
-.icon-social-box:hover,
+.icon-social-footer:hover,
 .icon-social-box:focus,
 .icon-social-box:active {
   cursor: pointer;
