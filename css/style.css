@@ -279,19 +279,19 @@ body {
 /* klienci */
 .client-box {
   display: flex;
-  justify-content: space-between;
-  margin-bottom: 94px;
-}
-.icon-client {
+  list-style: none;
   fill: var(--icon-color);
+  justify-content: space-around;
+}
+.client-icon-box {
   border: 1px solid var(--icon-color);
   border-radius: 4px;
-  width: 170px;
-  height: 92px;
+  padding: 16px 32px;
 }
-.icon-client:hover,
-.icon-client:focus,
-.icon-client:active {
+
+.client-icon-box:hover,
+.client-icon-boxt:focus,
+.client-icon-box:active {
   fill: var(--brand-color);
   border: 1px solid var(--brand-color);
   border-radius: 4px;
