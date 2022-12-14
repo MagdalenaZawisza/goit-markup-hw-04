@@ -12,6 +12,8 @@
   --icon-color: #afb1b8;
   --backgrand-color: #f5f4fa;
   --backgrand-icon: rgba(255, 255, 255, 0.1);
+  --border-color: #ececec;
+  --portfolio-color: #eeeeee;
 }
 
 body {
@@ -23,7 +25,7 @@ body {
 }
 
 .menu-logo {
-  border: 1px solid #ececec;
+  border: 1px solid var(--border-color);
   padding-top: 24px;
   padding-bottom: 25px;
 }
@@ -198,7 +200,7 @@ body {
 .icon-advantages-box {
   padding: 25px 100px;
   margin-bottom: 30px;
-  background-color: #f5f4fa;
+  background-color: var(--backgrand-color);
   border-radius: 4px;
 }
 
@@ -257,7 +259,8 @@ body {
 .social-box {
   display: flex;
   margin: 16px 32px 18px 32px;
-  gap:10px;
+  gap: 10px;
+  list-style: none;
 }
 
 .icon-social {
@@ -302,6 +305,7 @@ body {
 }
 .contact-box {
   padding-top: 15%;
+  list-style: none;
 }
 .contact-list {
   list-style-type: none;
@@ -351,7 +355,8 @@ body {
 
 .icon-box {
   display: flex;
-  gap:10px;
+  gap: 10px;
+  list-style: none;
 }
 
 .icon-social-footer {
@@ -422,9 +427,9 @@ body {
 .portfolio-card {
   background-color: var(--white-color);
   border-radius: 0px 0px 4px 4px;
-  border-bottom: 1px solid #eeeeee;
-  border-left: 1px solid #eeeeee;
-  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid var(--portfolio-color);
+  border-left: 1px solid var(--portfolio-color);
+  border-right: 1px solid var(--portfolio-color);
   width: 370px;
   height: 404px;
 }
